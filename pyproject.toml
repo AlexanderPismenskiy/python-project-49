@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Alexander Pismenskiy <alex.pismenskiy@gmail.com>"]
 readme = "README.md"
-packages = packages = [
+packages = [
   { include = "brain_games" },
 ]
 
