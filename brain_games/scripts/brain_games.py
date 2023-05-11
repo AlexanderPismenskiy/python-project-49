@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import brain_games
 
 def start_game(module):
