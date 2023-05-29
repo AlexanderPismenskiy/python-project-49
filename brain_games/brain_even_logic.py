@@ -10,11 +10,23 @@ def is_even(number):
         return False
 
 
+def game_replay(player_answer, correct_answer, player_name):
+    correct = 'Correct!'
+    incorrect = (f"""'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. 
+Let's try again, {player_name}!""")
+    if player_answer == correct_answer:
+        return(correct)
+    else:
+        return incorrect
+    
+
+
 def player_answers():
     number_of_attempts = 3
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}')
     print('Answer "yes" if the number is even, otherwise answer "no".')
+    winner = True
     for _ in range(number_of_attempts):
         question_number = randint(1, 999)
         print(f'Question: {question_number}')
@@ -24,7 +36,23 @@ def player_answers():
         if player_answer == correct_answer:
             print('Correct!')
         else:
-            print(f'''{player_answer} is wrong answer ;(. Correct answer was {correct_answer}. 
-Let's try again, {player_name}!''')
+            print(f"""'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. 
+Let's try again, {player_name}!""")
+            winner = False
             break
-    print(f'''Congratulations, {player_name}!''') 
+    if winner:
+        print(f'Congratulations, {player_name}!')
+                  
+
+
+        #result = game_replay(player_answer, correct_answer, player_name)
+        #print(result)
+        
+
+        #if player_answer == correct_answer:
+         #   print('Correct!')
+        #else:
+         #   print(f'''{player_answer} is wrong answer ;(. Correct answer was {correct_answer}. 
+#Let's try again, {player_name}!''')
+        
+
