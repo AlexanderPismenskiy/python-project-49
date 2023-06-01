@@ -1,8 +1,9 @@
 import prompt
 
+
 def welcome_user():
     print("Welcome to the Brain Games!")
-   
+
 
 def start_game():
     print("Welcome to the Brain Games!")

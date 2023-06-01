@@ -9,6 +9,7 @@ def is_even(number):
     else:
         return False
 
+
 number_of_attempts = 3
 
 

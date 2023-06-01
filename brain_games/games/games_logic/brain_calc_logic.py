@@ -4,9 +4,7 @@ import prompt
 from brain_games.games.games_logic.check_answer import calculate_correct_answer
 
 
-
-number_of_attempts = 3 # количество раун
-
+number_of_attempts = 3   # количество раун
 
 
 def calc_answers():
@@ -17,11 +15,11 @@ def calc_answers():
     for _ in range(number_of_attempts):
         question_number_1 = randint(1, 10)
         question_number_2 = randint(1, 10)
-        operators = ['+', '-', '*' ]
+        operators = ['+', '-', '*']
         question_operator = choice(operators)
         print(f'''Question: {question_number_1} {question_operator} {question_number_2}''')
         player_answer = prompt.integer('Your answer: ')
-        correct_answer = calculate_correct_answer(question_number_1,question_number_2, question_operator)
+        correct_answer = calculate_correct_answer(question_number_1, question_number_2, question_operator)
         if player_answer == correct_answer:
             print('Correct!')
         else:
