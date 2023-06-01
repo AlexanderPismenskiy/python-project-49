@@ -2,7 +2,7 @@
 
 
 import brain_games
-from brain_games.games.games_logic.cli import welcome_user
+from brain_games.cli import welcome_user
 
 
 def start_game(module):
