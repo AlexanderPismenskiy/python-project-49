@@ -9,9 +9,10 @@ def is_even(number):
     else:
         return False
 
+number_of_attempts = 3
+
 
 def player_answers():
-    number_of_attempts = 3
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}')
     print('Answer "yes" if the number is even, otherwise answer "no".')
