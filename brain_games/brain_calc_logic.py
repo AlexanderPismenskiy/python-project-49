@@ -2,7 +2,7 @@ from random import choice
 from random import randint
 import prompt
 from brain_games.check_answer import calculate_correct_answer
-from brain_games.games_rules import start_game
+
 
 
 number_of_attempts = 3 # количество раун
@@ -13,7 +13,6 @@ def calc_answers():
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}')
     print('What is the result of the expression?')
-    start_game()
     winner = True
     for _ in range(number_of_attempts):
         question_number_1 = randint(1, 10)
