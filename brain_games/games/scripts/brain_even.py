@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from brain_games.brain_even_logic import player_answers
+from brain_games.games.games_logic.brain_even_logic import player_answers
 
 
 def main():
