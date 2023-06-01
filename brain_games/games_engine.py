@@ -1,7 +1,7 @@
 import prompt
-from brain_games.games.games_logic import brain_calc_logic
 
-number_of_attempts = 3
+number_of_attempts = 3   # количесвто раундов игры
+
 
 def greeting():
     print("Welcome to the Brain Games!")
