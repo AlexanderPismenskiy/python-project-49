@@ -21,9 +21,10 @@ def engine(game):
         if player_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"""'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. 
-Let's try again, {player_name}!""")
+            print(f"""'{player_answer}' is wrong answer ;(."""
+                  f"""Correct answer was '{correct_answer}.'"""
+                  f"""Let's try again, {player_name}!""")
             winner = False
-            break      
-    if winner:
-        print(f'Congratulations, {player_name}!')
+            break
+        if winner:
+            print(f'Congratulations, {player_name}!')

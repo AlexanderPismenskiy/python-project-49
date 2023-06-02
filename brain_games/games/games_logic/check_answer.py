@@ -5,7 +5,7 @@ def check_answer(answer):
         return 'no'
 
 
-def calculate_correct_answer(number_1, number_2, operator):
+def calc_answer(number_1, number_2, operator):
     if operator == '+':
         return number_1 + number_2
     if operator == '-':
