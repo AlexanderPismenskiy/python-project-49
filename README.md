@@ -11,3 +11,6 @@ https://asciinema.org/a/588898
 
 ### Asciinema.org link for brain-gcd
 https://asciinema.org/a/588902
+
+### Asciinema.org link for brain-progression
+https://asciinema.org/a/589175
