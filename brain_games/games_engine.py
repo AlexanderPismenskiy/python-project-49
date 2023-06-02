@@ -12,7 +12,7 @@ def greeting():
 
 def engine(game):
     player_name = greeting()
-    print(game.GAME_RULE)
+    print(game.game_rule)
     winner = True
     for _ in range(number_of_attempts):
         correct_answer, task = game.game_question()

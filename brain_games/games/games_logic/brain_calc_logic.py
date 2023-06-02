@@ -3,7 +3,7 @@ from random import randint
 from brain_games.games.games_logic.check_answer import calculate_correct_answer
 
 
-GAME_RULE = 'What is the result of the expression?'
+game_rule = 'What is the result of the expression?'
 
 
 def game_question():
