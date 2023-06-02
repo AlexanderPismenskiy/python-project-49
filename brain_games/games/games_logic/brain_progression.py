@@ -6,15 +6,18 @@ game_rules = 'What number is missing in the progression?'
 
 
 def game_question():
-    start = randint(1, 10)
-    stop = randint(20, 50)
-    step = randint(2, 7)
+    first_number, difference = randint(1, 30), randint(1, 10)
+    #start = randint(1, 40)
+    #stop = randint(30, 40)
+    #step = randint(3, 5)
+    progression_length = randint(5, 10)
     progression = []
-    for i in range(start, stop, step):
-        progression.append(i)
+    for i in range(progression_length):
+        first_number += difference
+        progression.append(first_number)
     hiden_number = (choice(progression))
     hiden_index = progression.index(hiden_number)
     correct_answer = str(hiden_number)
-    progression[hiden_index] = '...'
+    progression[hiden_index] = '..'
     task = progression
     return correct_answer, task
