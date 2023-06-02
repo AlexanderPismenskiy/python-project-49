@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "brain-games-quiz"
 authors = ["Alexander Pismenskiy <alex.pismenskiy@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/AlexanderPismenskiy/python-project-49.git"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Natural Language :: English",
+    "Programming Language :: Python :: ^3.10",
 ]
 
 [tool.poetry.dependencies]
