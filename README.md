@@ -20,19 +20,19 @@ pip install --user --extra-index-url https://github.com/AlexanderPismenskiy/pyth
 
 For package installation use following coomands:
 
-make install (run 'poetry install')
-make build = (run 'poetry build)
-make package-install (run 'python3 -m pip install --user dist/*.whl')
-make package-reinstall (run 'python3 -m pip install --user --force-reinstall dist/*.whl')
-make publish (run 'poetry publish --dry-run')
+make install (run 'poetry install');
+make build (run 'poetry build);
+make package-install (run 'python3 -m pip install --user dist/*.whl');
+make package-reinstall (run 'python3 -m pip install --user --force-reinstall dist/*.whl');
+make publish (run 'poetry publish --dry-run');
 
 For start games use following commands:
 
-brain-even 
-brain-calc
-brain-gcd
-brain-progression
-brain-prime
+brain-even; 
+brain-calc;
+brain-gcd;
+brain-progression;
+brain-prime;
 
 
 ### Asciinema.org link for brain-even
