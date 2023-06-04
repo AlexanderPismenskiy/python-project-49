@@ -3,15 +3,10 @@ import prompt
 NUMBER_OF_ATTEMPTS = 3   # количесвто раундов игры
 
 
-def greeting():
+def start_game(game):
     print("Welcome to the Brain Games!")
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}')
-    return player_name
-
-
-def start_game(game):
-    player_name = greeting()
     print(game.GAME_RULE)
     winner = True
     for _ in range(NUMBER_OF_ATTEMPTS):
