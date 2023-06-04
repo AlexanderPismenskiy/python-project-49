@@ -15,7 +15,7 @@ def engine(game):
     print(game.GAME_RULE)
     winner = True
     for _ in range(number_of_attempts):
-        correct_answer, task = game.game_question()
+        correct_answer, task = game.get_game()
         print(f'Question: {task}')
         player_answer = prompt.string('Your answer: ')
         if player_answer == correct_answer:

@@ -12,7 +12,7 @@ def is_even(number):
         return False
 
 
-def game_question():
+def get_game():
     task = randint(1, 999)
     even_number = is_even(task)
     correct_answer = check_answer(even_number)

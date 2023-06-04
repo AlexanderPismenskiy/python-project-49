@@ -1,12 +1,20 @@
 from random import choice
 from random import randint
-from brain_games.games.check_answer import calc_answer
 
 
 GAME_RULE = 'What is the result of the expression?'
 
 
-def game_question():
+def calc_answer(number_1, number_2, operator):
+    if operator == '+':
+        return number_1 + number_2
+    if operator == '-':
+        return number_1 - number_2
+    if operator == '*':
+        return number_1 * number_2
+
+
+def get_game():
     number_1 = randint(1, 10)
     number_2 = randint(1, 10)
     operators = ['+', '-', '*']

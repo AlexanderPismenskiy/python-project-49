@@ -5,7 +5,7 @@ from random import choice
 GAME_RULE = 'What number is missing in the progression?'
 
 
-def game_question():
+def get_game():
     first_number, difference = randint(1, 30), randint(1, 10)
     progression_length = randint(5, 10)
     progression = []
