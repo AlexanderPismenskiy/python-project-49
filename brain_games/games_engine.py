@@ -10,7 +10,7 @@ def greeting():
     return player_name
 
 
-def engine(game):
+def start_game(game):
     player_name = greeting()
     print(game.GAME_RULE)
     winner = True
