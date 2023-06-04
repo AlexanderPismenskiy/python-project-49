@@ -1,6 +1,6 @@
 import prompt
 
-number_of_attempts = 3   # количесвто раундов игры
+NUMBER_OF_ATTEMPTS = 3   # количесвто раундов игры
 
 
 def greeting():
@@ -14,7 +14,7 @@ def engine(game):
     player_name = greeting()
     print(game.GAME_RULE)
     winner = True
-    for _ in range(number_of_attempts):
+    for _ in range(NUMBER_OF_ATTEMPTS):
         correct_answer, task = game.get_game()
         print(f'Question: {task}')
         player_answer = prompt.string('Your answer: ')
