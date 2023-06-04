@@ -8,7 +8,6 @@ def start_game(game):
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}')
     print(game.GAME_RULE)
-    winner = True
     for _ in range(NUMBER_OF_ATTEMPTS):
         correct_answer, task = game.get_game()
         print(f'Question: {task}')
@@ -19,7 +18,5 @@ def start_game(game):
             print(f"""'{player_answer}' is wrong answer ;(."""
                   f"""Correct answer was '{correct_answer}.'"""
                   f"""Let's try again, {player_name}!""")
-            winner = False
-            break
-        if winner:
-            print(f'Congratulations, {player_name}!')
+            return
+        print(f'Congratulations, {player_name}!')
