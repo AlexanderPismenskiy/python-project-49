@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.games.check_answer import check_answer
 
-game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):

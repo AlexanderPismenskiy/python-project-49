@@ -2,7 +2,7 @@ from random import randint
 from brain_games.games.check_answer import check_answer
 
 
-game_rule = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
