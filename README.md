@@ -35,17 +35,17 @@ brain-progression;
 brain-prime;
 
 
-### Asciinema.org link for brain-even
+### brain-even example
 [![asciicast](https://asciinema.org/a/588293.svg)](https://asciinema.org/a/588293)
 
-### Asciinema.org link for brain-calc
+### brain-calc example
 [![asciicast](https://asciinema.org/a/588898.svg)](https://asciinema.org/a/588898)
 
-### Asciinema.org link for brain-gcd
+### brain-gcd example
 [![asciicast](https://asciinema.org/a/588902.svg)](https://asciinema.org/a/588902)
 
-### Asciinema.org link for brain-progression
+### brain-progression example
 [![asciicast](https://asciinema.org/a/589175.svg)](https://asciinema.org/a/589175)
 
-### Asciinema.org link for brain-prime
+### brain-prime example
 [![asciicast](https://asciinema.org/a/589178.svg)](https://asciinema.org/a/589178)
