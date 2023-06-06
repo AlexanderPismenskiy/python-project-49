@@ -14,9 +14,9 @@ def is_prime(number):
 
 
 def get_game():
-    task = randint(2, 100)
-    if is_prime(task):
+    question = randint(2, 100)
+    if is_prime(question):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return correct_answer, task
+    return correct_answer, question

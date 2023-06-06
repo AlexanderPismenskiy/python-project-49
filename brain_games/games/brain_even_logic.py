@@ -9,9 +9,9 @@ def is_even(number):
 
 
 def get_game():
-    task = randint(1, 999)
-    if is_even(task):
+    question = randint(1, 999)
+    if is_even(question):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return correct_answer, task
+    return correct_answer, question

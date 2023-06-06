@@ -21,5 +21,5 @@ def get_game():
     hiden_index = progression.index(hiden_number)
     correct_answer = str(hiden_number)
     progression[hiden_index] = ".."
-    task = ' '.join(map(str, progression))
-    return correct_answer, task
+    question = ' '.join(map(str, progression))
+    return correct_answer, question
